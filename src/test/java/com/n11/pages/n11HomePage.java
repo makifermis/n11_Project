@@ -20,7 +20,7 @@ public class n11HomePage {
     @FindBy(xpath = "//button[@title='Only allow essential cookies']")
     public WebElement onlyEssentialCookiesButton;
 
-    @FindBy(xpath = "//a[@class='menuLink user']")
+    @FindBy(xpath = "//a[@title='Hesabım']")
     public WebElement usernameElement;
 
     @FindBy(id = "searchData")

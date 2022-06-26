@@ -57,7 +57,7 @@ public class Login_StepDefinitions {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(),10);
 
         //use the "wait" object to create our expected condition
-        wait.until(ExpectedConditions.titleIs("n11.com - Hayat Sana Gelir"));
+        wait.until(ExpectedConditions.titleIs("n11 - Hayat Sana Gelir"));
 
         Assert.assertTrue(n11HomePage.usernameElement.isDisplayed());
     }

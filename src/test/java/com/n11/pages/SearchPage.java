@@ -14,10 +14,10 @@ public class SearchPage {
     @FindBy(linkText = "2")
     public WebElement secondPage;
 
-    @FindBy(xpath = "((//div[@data-ctgid='12'])[3]//div)[3]/following-sibling::span")
+    @FindBy(xpath = "(//span[@class='followBtn'])[3]")
     public WebElement thirdProductAddToFavorites;
 
-    @FindBy(xpath = "//a[@class='menuTitle']")
+    @FindBy(xpath = "//a[@title='Hesabım']")
     public WebElement myAccount;
 
     @FindBy(xpath = "//a[@title='Favorilerim / Listelerim']")
@@ -26,7 +26,7 @@ public class SearchPage {
     @FindBy(xpath = "(//h4[@class='listItemTitle'])[1]")
     public WebElement myFavoritesLink;
 
-    @FindBy(xpath = "//span[@class='deleteProFromFavorites']")
+    @FindBy(xpath = "//span[.='Sil']")
     public WebElement deleteFromFavorites;
 
     @FindBy(xpath = "//span[@class='btn btnBlack confirm']")
